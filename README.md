@@ -3,17 +3,18 @@ This document aims to guide users on how to run a Python script that extracts te
 Dependencies: 
 Ensure you have the following dependencies installed:
 
-      Python (version 3.6 or higher recommended)
-      pip (Python package installer)
-      Required Python packages:
-                requests
-                BeautifulSoup (bs4)
-                nltk (Natural Language Toolkit)
-                spacy
-                pandas
+Python (version 3.6 or higher recommended)
+pip (Python package installer)
+Required Python packages:
+         requests
+        BeautifulSoup (bs4)
+	nltk (Natural Language Toolkit)
+        spacy
+        pandas
 
 Install these dependencies using pip:
-  pip install requests beautifulsoup4 nltk spacy pandas
+  	
+   	pip install requests beautifulsoup4 nltk spacy pandas
 
 Setup:
 Python Installation:
@@ -22,21 +23,21 @@ Package Installation:
 Open a command prompt or terminal.
 Installing the required packages using pip:
 
-pip install requests beautifulsoup4 nltk spacy pandas
+	pip install requests beautifulsoup4 nltk spacy pandas
 
 Download NLTK Resources:
 After installing nltk, download the necessary resources:
 
-python -m nltk.downloader punkt stopwords vader_lexicon cmudict
-
-
+	python -m nltk.downloader punkt stopwords vader_lexicon cmudict
 
 
 Download spaCy Model:
 Download and install the English model for spaCy:
 
-python -m spacy download en_core_web_sm
+	python -m spacy download en_core_web_sm
+
 Download Input and Output Files:
+
 Place the Input.xlsx and Output Data Structure.xlsx files in the same directory as your Python script (NTLK.py).
 Running the Script:
 Open Command Prompt or Terminal:
